@@ -115,10 +115,6 @@ class CalcCtrl {
         $smarty = new Smarty();
         $smarty->assign('conf', $conf);
 
-        $smarty->assign('page_title', 'Kalkulator - obiektowosc');
-        $smarty->assign('page_description', 'Obiektowość.');
-        $smarty->assign('page_header', 'Obiektowosc w praktyce');
-
         $smarty->assign('msgs', $this->msgs);
         $smarty->assign('form', $this->form);
         $smarty->assign('res', $this->rata);
